@@ -1,2 +1,2 @@
-# pss
-powershell script
+# Execute as Administrator
+Set-ExecutionPolicy RemoteSigned 
