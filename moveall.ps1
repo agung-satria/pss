@@ -1,12 +1,12 @@
 echo "Moving all file"
 echo "From:"
-echo "$dari"
+echo "$src"
 echo "To:"
-echo "$ke"
-$dari = "D:\Agung Satria\jawaban-uts-database"
-$ke = "D:\Agung Satria\jawaban-uts-database-send"
+echo "$dst"
+$src = "D:\Agung Satria\jawaban-uts-database"
+$dst = "D:\Agung Satria\jawaban-uts-database-send"
 
 for (;;) {
   start-sleep -s 2
-  move-item $dari/* $ke -ErrorAction SilentlyContinue -force
+  move-item $src/* $dst -ErrorAction SilentlyContinue -force
 }
